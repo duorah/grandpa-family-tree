@@ -25,13 +25,15 @@ This shoulkd ensure that all the required packages are installed.
     cd django_graphql_react
     python3 manage.py makemigrations
     python3 manage.py migrate
+    python3 manage.py createsuperuser
+    > enter name, email, password
     python3 manage.py runserver
     
 This should start the django server at port 8000. You can browse the app at
 
     http://localhost:8000/admin
-    http://localhost:8000/graphql
-    
+
+Here enter your superuser name and password and you will be able to see the admin screen.    
 ## Getting Javascript running
     
     cd react-app
