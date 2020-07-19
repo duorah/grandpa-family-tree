@@ -2,4 +2,4 @@ django
 graphene-django
 django-import-export
 django-cors-headers
-
+django-allauth
